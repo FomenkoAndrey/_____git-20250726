@@ -1,0 +1,26 @@
+{
+  "name": "___git",
+  "version": "1.0.0",
+  "description": "- `git config` - Налаштування Git\r - `git status` - Перевірка статусу репозиторію\r - `git init` - Ініціалізація нового репозиторію\r - `git rm` - Видалення файлів з індексу\r - `git add` - Додавання файлів до індексу\r - `git commit` - Створення коміту\r - `git log` - Перегляд історії комітів\r - `git restore` - Відновлення файлів\r - `git reset` - Скидання змін\r - `git checkout` - Переключення гілок/комітів\r - `git branch` - Робота з гілками\r - `git clone` - Клонування віддаленого репозиторію\r - `git push` - Відправка змін до віддаленого репозиторію\r - `git pull` - Отримання змін з віддаленого репозиторію\r - `git remote` - Керування віддаленими репозиторіями\r - `git stash`",
+  "main": "index.js",
+  "dependencies": {
+    "acorn-jsx": "^5.3.2",
+    "ansi-regex": "^5.0.1",
+    "argparse": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FomenkoAndrey/_____git-20250726.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FomenkoAndrey/_____git-20250726/issues"
+  },
+  "homepage": "https://github.com/FomenkoAndrey/_____git-20250726#readme"
+}
