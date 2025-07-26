@@ -1,29 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 
 <head>
   <meta charset="UTF-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Форма логіну</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <div class="login-container">
+    <div class="login-form">
+      <h1>Вхід до системи</h1>
+      <form>
+        <div class="form-group">
+          <label for="username">Ім'я користувача:</label>
+          <input type="text" id="username" name="username" required>
+        </div>
 
-  <h1>INDEX</h1>
+        <div class="form-group">
+          <label for="password">Пароль:</label>
+          <input type="password" id="password" name="password" required>
+        </div>
 
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
-
-  <div class="container">
-    <div class="box">
-      <h2>Box 1</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+        <button type="submit" class="login-btn">Увійти</button>
+      </form>
     </div>
   </div>
-
-  <ul>
-    <li>Item 1</li>
-  </ul>
-
 </body>
 
 </html>
